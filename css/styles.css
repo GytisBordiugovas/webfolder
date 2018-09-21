@@ -1,0 +1,140 @@
+html, body {
+	background-size: 100%;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+p.a {
+    font-family: "Times New Roman", Times, serif;
+}
+
+p.b {
+    font-family: Arial, Helvetica, sans-serif;
+}
+a:hover {
+    background-color: grey;
+	text-decoration: underline;
+}
+#wrapper {
+	min-height: 100%;
+	position: relative;
+}
+#main {
+	overflow: auto;
+	height: auto;
+	padding-bottom: 140px;
+}
+#logo {
+	margin: 5px;
+	border: 1px solid grey;	
+}
+header {
+	background-color: black;
+	height: 100%;
+	width: 100%;
+}
+.header-left {
+	display: flex;
+	flex-basis: 100%;
+	flex-wrap: wrap;
+	height: 87px;
+}
+.header-left > p {
+	font-size: 16px;
+	font-family: Courier-new;
+	color: white;
+	border: 2px solid white;
+	display: flex;
+	justify-content: center;
+}
+.register-login {
+	background-color: black;
+	display: flex;
+	flex: 1;
+	flex-basis: auto;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	
+}
+#register {
+	margin-right: 10px;
+	color: #D3D3D3;
+}
+#login {
+	margin-left: 10px;
+	color: #D3D3D3;
+}
+nav {
+	font-size: 18px;
+	background-color: black;
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+nav ul li {
+	cursor: pointer;
+	padding: 2px;
+	border: 1px solid white;
+}
+nav ul li:hover {
+	background-color: grey;
+}
+.home {
+	background-color: white;
+	margin: 1px 1px 3px 1px;
+	font-weight: bold;
+}
+.about {
+	background-color: white;
+	margin: 1px 1px 3px 1px;
+	font-weight: bold;
+}
+.electricvehicles {
+	background-color: white;
+	margin: 1px 1px 3px 1px;
+	font-weight: bold;
+}
+.robots	{
+	background-color: white;
+	margin: 1px 1px 3px 1px;
+	font-weight: bold;
+}
+.applications {
+	background-color: white;
+	margin: 1px 1px 3px 1px;
+	font-weight: bold;
+}
+#search {
+	width: 220px;
+	margin-right: 5px;
+	display: flex;
+	margin-left: auto;
+}
+#mercedesbg {
+	height: 100%;
+	width: 100%;
+}
+.footer {
+	position: absolute;
+	background-color: black;
+	bottom: 0;
+	height: 100px;
+	width: 100%;
+	padding: 20px;
+}
+.footer p {
+	float: left;
+	color: white;
+}
+.footer address {
+	float: left;
+	margin-left: 18px;
+	margin-top: 16px;
+	color: white;
+}
